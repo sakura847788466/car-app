@@ -1,0 +1,91 @@
+.about-container {
+    /* 你的命名空间 */
+    background-color: #f7f7f7;
+    height: 100vh;
+    box-sizing: border-box;
+    .m-box {
+        background-color: #fff;
+        .m-box-items {
+            padding-left: 7px;
+            padding-right: 7px;
+            .m-mine-userCard {
+                position: relative;
+                .userCard-link {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 15px 0;
+                }
+                .userCard-pic .c-img {
+                    width: 60px;
+                    height: 60px;
+                    display: inline-block;
+                    vertical-align: middle;
+                    background: url('../../../assets/userCard.png') no-repeat;
+                    background-size: cover;
+                    margin: 0 15px 0 12px;
+                    border-radius: 50%;
+                }
+                .userCard-cont {
+                    -webkit-box-flex: 1;
+                    box-flex: 1;
+                    padding-top: 5px;
+                    .c-title {
+                        line-height: 24px;
+                        font-size: 0;
+                        .c-name {
+                            font-size: 15px;
+                            display: inline-block;
+                            vertical-align: middle;
+                            height: 24px;
+                            max-width: 79%;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            margin-right: 5px;
+                        }
+                    }
+                    .c-des {
+                        padding-top: 10px;
+                        line-height: 14px;
+                        font-size: 12px;
+                        color: #999;
+                    }
+                }
+                .c-btn-login {
+                    padding-right: 10px;
+                    line-height: 60px;
+                    font-size: 15px;
+                    color: #0bbe06;
+                    .c-glyphicon {
+                        position: relative;
+                        font-size: 14px;
+                        color: #8fdd90;
+                    }
+                    .c-glyphicon-arrowRight {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+        .m-box-items-full {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+    .cell-list {
+        margin-top: 10px;
+    }
+    .page-c-items {
+        .m-footer {
+            text-align: center;
+            padding: 15px 0;
+            img {
+                width: 100px;
+                height: 47px;
+                border: none;
+                vertical-align: top;
+            }
+        }
+    }
+}
